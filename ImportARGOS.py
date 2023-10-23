@@ -10,3 +10,9 @@
 ## Author: lijia.go@duke.edu (for ENV859) #this chunk is known as a boiler plate
 ##---------------------------------------------------------------------
 
+# Import modules
+import sys, os, arcpy #libraries typically used in GIS scripting 
+
+# Set input variable (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
+outputFile = 'V:/ARGOSTracking/Scratch/ARGOSTrack.shp'
